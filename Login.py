@@ -3,7 +3,7 @@ from PIL import ImageTk ,Image
 import sqlite3
 from tkinter import messagebox
 from account import reg
-#from bird import play
+#from game import play
 import os.path
 
 
@@ -24,11 +24,11 @@ def login ():
         rows = cur.fetchall()
         print(rows)
         #checking wheter it is empyt or not <if empty show error message , if not login
-       # if len(rows)> 0:
-            #messagebox.showinfo(":Account created" ,login has been sudcess')
-            #play()
-        #else :
-            #messagebox.showerror("Error","invalid username and password ")
+        if len(rows)> 0:
+            #messagebox.showinfo(":Account created" ,login has been sucess')
+             play()
+        else :
+            messagebox.showerror("Error","invalid username and password ")
 #creating the window
 root = Tk()
 
