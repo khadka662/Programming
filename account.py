@@ -5,9 +5,11 @@ import sqlite3
 def reg():
     root = Tk()
 
-    root.title("Registration Forum")
+    root.title("PING PONG")
+    root.iconbitmap('ping.ico')
+    root.configure(bg='#12dbba')
 
-    root.geometry("370x400")
+    root.geometry("360x380")
     root.resizable(width=False, height=False)
     # Creating a database
     database = sqlite3.connect('registration.db')
@@ -44,12 +46,15 @@ def reg():
         database.commit()
 
 
+    # create a label
+    my_label = Label(root)
+    my_label.place(x=0,y=0,relwidth=1,relheight=1)
 
     # add something to the top of our image
-    my_text = Label(root, text=" Create an Account", font=("helvetica", 15))
+    my_text = Label(root, text=" CREATE AN ACCOUNT", font=("helvetica", 15))
     my_text.grid(row=0, column=2, pady=20)
     # create a frame
-    my_frame = Frame(root, bg='#00b368')
+    my_frame = Frame(root, bg='#12dbba')
     my_frame.grid(row=1, column=2)
 
     # creating label

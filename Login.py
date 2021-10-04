@@ -22,7 +22,7 @@ def login():
         cur.execute(query, (user_name, password_name))
         rows = cur.fetchall()
         print(rows)
-        # checking wheter it is empyt or not <if empty show error message , if not login
+        # checking whether it is empty or not <if empty show error message , if not login
         if len(rows) > 0:
             # messagebox.showinfo(":Account created" ,login has been sucess')
             import game
@@ -38,6 +38,9 @@ root.title("PING PONG")
 
 # set the geometry for the root window
 root.geometry('350x320')
+
+#icon
+root.iconbitmap('ping.ico')
 
 # adding the background
 bg = ImageTk.PhotoImage(Image.open("ball.jpg"))

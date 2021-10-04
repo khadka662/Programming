@@ -94,7 +94,9 @@ clock = pygame.time.Clock()
 screen_width = 1000
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption('Pong')
+pygame.display.set_caption('PING PONG')
+icon = pygame.image.load('pong.png')
+pygame.display.set_icon(icon)
 
 # sound
 collision_sound = pygame.mixer.Sound('collide.wav')
