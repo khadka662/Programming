@@ -9,5 +9,9 @@ Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two o
 <img width="271" alt="pong2" src="https://user-images.githubusercontent.com/84699135/135856312-b3c015ab-8bcd-4081-8308-bd6d891858ab.png">
 
 
+## AIM
+ The aim of the game is hit the ball and stop it from getting past and score as many point as possible.
+
 ## FUNCTIONS
 The player have to stop ball from getting past them and hit the ball towards the opponent.If opponent misses the ball the player will get one point. Player have to use up key and down key to control to the player and stop the ball from getting past and hit the ball towards the opponent to score the points.
+
