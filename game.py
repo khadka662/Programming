@@ -96,6 +96,7 @@ screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption('Pong')
 
+# sound
 collision_sound = pygame.mixer.Sound('collide.wav')
 
 # Colors
@@ -119,10 +120,6 @@ score_time = True
 player_score = 0
 opponent_score = 0
 basic_font = pygame.font.Font('freesansbold.ttf', 32)
-
-# sound
-#plob_sound = pygame.mixer.Sound("pong.ogg")
-#score_sound = pygame.mixer.Sound("score.ogg")
 
 while True:
     for event in pygame.event.get():
@@ -163,3 +160,4 @@ while True:
 
     pygame.display.flip()
     clock.tick(60)
+
