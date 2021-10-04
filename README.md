@@ -16,5 +16,6 @@ Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two o
 The player have to stop ball from getting past them and hit the ball towards the opponent.If opponent misses the ball the player will get one point. Player have to use up key and down key to control to the player and stop the ball from getting past and hit the ball towards the opponent to score the points.
 
 
-# sagar khadla
-# coventry ID-11782933
+sagar khadla
+coventry ID-11782933
+Batch 30 sec-B
